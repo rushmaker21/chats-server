@@ -1,0 +1,19 @@
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+    "username": "nel",
+    "password": "nia123"
+}
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "username": "nel",
+    "password": "nia123"
+}
+
+###
+GET http://localhost:5000/currentUser
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmViN2ExOTNmZDcwMWIwZjE3NDc0ODIiLCJpYXQiOjE3MjY3MDkwMjUsImV4cCI6MTcyNjcxMjYyNX0.HS5zUCpvQnl_2B_d-AYL3bkeEEn0qxkbAnLO0RUiurY
